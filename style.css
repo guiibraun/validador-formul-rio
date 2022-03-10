@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.screen{
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side img{
+    width: 80%;
+    height: auto;
+}
+
+.right-side{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: antiquewhite;
+}
