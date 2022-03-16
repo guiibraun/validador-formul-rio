@@ -29,3 +29,9 @@ body{
     width: 600px;
     background-color: antiquewhite;
 }
+
+.error{
+    background: red;
+    font-size: 11px;
+    color: #fff;
+}
